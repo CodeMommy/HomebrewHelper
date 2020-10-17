@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e
+set -u
+
 echo "HomebrewHelper: Changing repositories to the official."
 /bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/CodeMommy/HomebrewHelper@main/shell/official.sh)"
 

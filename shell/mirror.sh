@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e
+set -u
+
 BREW_REPOSITORY_HOST=https://mirrors.cloud.tencent.com/homebrew
 REPOSITORIES=(core cask cask-fonts cask-drivers python science)
 SHELL_CONFIGURATION_FILES=(~/.bash_profile ~/.zshrc)

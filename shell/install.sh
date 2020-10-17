@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e
+set -u
+
 echo "HomebrewHelper: Changing HOMEBREW_CORE_GIT_REMOTE to the mirror of Tencent Cloud."
 # shellcheck disable=SC2034
 HOMEBREW_CORE_GIT_REMOTE=https://mirrors.cloud.tencent.com/homebrew/homebrew-core.git
